@@ -46,7 +46,7 @@ export interface EnterElement {
 /**
  * Container element type usable for mouse/touch functions
  */
-export type ContainerElement = HTMLElement | SVGSVGElement | SVGGElement;
+export type ContainerElement = HTMLElement | SVGSVGElement | SVGGElement | Element;
 
 /**
  * A User interface event (e.g. mouse event, touch or MSGestureEvent) with captured clientX and clientY properties.
